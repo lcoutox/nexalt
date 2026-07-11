@@ -1,0 +1,20 @@
+.next
+node_modules
+out
+dist
+.env
+.env*
+!.env.example
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+tsconfig.tsbuildinfo
+
+# NexBrain (assistente pessoal) fica fora deste repo — contém dados de
+# clientes, credenciais OAuth e o índice de memória. Não versionar aqui.
+NexBrain/
+.claude/
+.agent/
+my-second-brain-requirements.md
+CLAUDE.md
