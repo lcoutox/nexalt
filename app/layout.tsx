@@ -1,17 +1,9 @@
 import type { Metadata, Viewport } from "next";
-import { Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 
-const jakarta = Plus_Jakarta_Sans({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800"],
-  display: "swap",
-  variable: "--font-jakarta",
-});
-
-const title = "Nexalt | Automação com Inteligência Artificial para empresas";
+const title = "Nexalt — Estratégia e desenvolvimento de tecnologia";
 const description =
-  "A Nexalt cria automações sob medida com IA para atendimento, vendas, cobrança e rotinas internas. Escopo fechado, implementação em semanas. Diagnóstico gratuito pelo WhatsApp.";
+  "Software sob medida, integração de sistemas e evolução tecnológica. A Nexalt ajuda sua empresa a dar o próximo passo com tecnologia.";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://nexalt.com.br"),
@@ -19,16 +11,13 @@ export const metadata: Metadata = {
   description,
   applicationName: "Nexalt",
   keywords: [
-    "automação com IA",
-    "inteligência artificial para empresas",
-    "automação de atendimento",
-    "automação WhatsApp",
+    "software sob medida",
+    "desenvolvimento de software",
+    "integração de sistemas",
+    "estratégia de tecnologia",
     "automação de processos",
-    "agência de automação",
   ],
-  alternates: {
-    canonical: "/",
-  },
+  alternates: { canonical: "/" },
   openGraph: {
     title,
     description,
@@ -41,7 +30,7 @@ export const metadata: Metadata = {
         url: "/og.png",
         width: 1051,
         height: 237,
-        alt: "Nexalt - automação com Inteligência Artificial",
+        alt: "Nexalt — Estratégia e desenvolvimento de tecnologia",
       },
     ],
   },
@@ -59,18 +48,16 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#0A0A0E",
+  themeColor: "#191918",
   width: "device-width",
   initialScale: 1,
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="pt-BR" className={jakarta.variable}>
+    <html lang="pt-BR">
       <body>{children}</body>
     </html>
   );
