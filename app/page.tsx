@@ -38,21 +38,21 @@ export default function Home() {
         <section className="hero">
           <div className="eyebrow">
             <span className="small-mark" aria-hidden="true"></span>
-            {" ESTRATÉGIA & DESENVOLVIMENTO DE TECNOLOGIA"}
+            {" TECNOLOGIA PARA OPERAÇÕES QUE QUEREM EVOLUIR"}
           </div>
           <h1>
-            {"Tecnologia para"}
+            {"Tecnologia que resolve"}
             <br />
-            {"o seu próximo "}
+            {"o que trava sua "}
             <span className="step-word">
-              {"passo"}
+              {"operação"}
               <span className="orange-period">{"."}</span>
             </span>
           </h1>
           <div className="hero-bottom">
             <p>
               {
-                "Desenvolvemos software, conectamos sistemas e melhoramos processos para sua empresa seguir em frente."
+                "Software sob medida, integração, automação e IA aplicada para organizar processos e transformar planos em soluções úteis."
               }
             </p>
             <a className="button dark" href="#conversa">
@@ -156,19 +156,19 @@ export default function Home() {
           <article className="service">
             <span className="service-number">{"03"}</span>
             <h3>
-              {"Integração"}
+              {"Integração, automação"}
               <br />
-              {"e automação"}
+              {"e IA aplicada"}
             </h3>
             <div>
               <p>
                 {
-                  "Informações no lugar certo, sem repetir o mesmo trabalho. Conectamos ferramentas e organizamos o fluxo entre elas."
+                  "Informações no lugar certo, menos repetição e decisões com contexto. Conectamos ferramentas, organizamos fluxos e avaliamos onde a IA ajuda de forma útil."
                 }
               </p>
               <ul>
-                <li>{"Integrações entre sistemas"}</li>
-                <li>{"Rotinas e fluxos operacionais"}</li>
+                <li>{"Integrações, rotinas e fluxos operacionais"}</li>
+                <li>{"IA aplicada com regras e supervisão humana"}</li>
               </ul>
             </div>
           </article>
@@ -365,6 +365,27 @@ export default function Home() {
                 }
               </p>
             </div>
+            <div className="leadership">
+              <p className="leadership-label">{"À FRENTE DA NEXALT"}</p>
+              <p>
+                {
+                  "Lucas Couto conecta estratégia, arquitetura de software e desenvolvimento para conduzir cada projeto com proximidade técnica e visão de negócio."
+                }
+              </p>
+              <a
+                href="https://lucascouto.me"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {"Conheça a trajetória profissional de Lucas Couto "}
+                <span aria-hidden="true">{"↗"}</span>
+              </a>
+              <small>
+                {
+                  "O portfólio pessoal apresenta a trajetória de Lucas; as soluções da Nexalt são definidas para cada projeto."
+                }
+              </small>
+            </div>
             <div className="principles">
               <span>{"Clareza para decidir."}</span>
               <span>{"Cuidado para construir."}</span>
@@ -448,9 +469,9 @@ export default function Home() {
               {"colocar em movimento?"}
             </h2>
             <p>
-              {"Conte o que acontece hoje e o que você quer mudar."}
+              {"Conte onde a operação trava, o que precisa integrar ou qual solução você quer colocar em uso."}
               <br />
-              {"O próximo passo começa por entender o seu."}
+              {"O próximo passo começa por entender o seu contexto."}
             </p>
             <a
               className="button dark"

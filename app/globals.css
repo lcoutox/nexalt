@@ -648,6 +648,35 @@ details[open] > summary > span {
   line-height: 1.8;
   color: #535350;
 }
+.leadership {
+  border-top: 1px solid var(--line);
+  margin-top: 42px;
+  max-width: 720px;
+  padding-top: 28px;
+}
+.leadership-label {
+  color: var(--orange-dark) !important;
+  font-size: 11px !important;
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  margin-bottom: 14px !important;
+}
+.leadership a {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 6px;
+  text-decoration: underline;
+  text-decoration-offset: 5px;
+}
+.leadership small {
+  color: var(--muted);
+  display: block;
+  font-size: 12px;
+  line-height: 1.6;
+  margin-top: 16px;
+  max-width: 590px;
+}
 .principles {
   border-top: 1px solid var(--line);
   padding-top: 28px;
