@@ -18,6 +18,7 @@ export default function MenuEnhancement() {
       const open = toggle.getAttribute("aria-expanded") !== "true";
       toggle.setAttribute("aria-expanded", String(open));
       nav.classList.toggle("is-open", open);
+      if (open) nav.querySelector<HTMLAnchorElement>("a")?.focus();
     };
     const navigate = (event: MouseEvent) => {
       if (event.target instanceof Element && event.target.closest("a"))
